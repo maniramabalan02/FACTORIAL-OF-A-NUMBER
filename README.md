@@ -64,6 +64,13 @@ END
 
 **Output:**  
 
+INPUT
+<img width="1919" height="257" alt="MAGESH KUMAR C 212224060143 FACTORIAL IP" src="https://github.com/user-attachments/assets/94be1607-45a4-4a82-ba2b-e145f62d7f18" />
+
+
+OUTPUT
+<img width="1917" height="265" alt="MAGESH KUMAR C 212224060143 FACTORIAL OP" src="https://github.com/user-attachments/assets/3404bcde-b6ff-4d7c-9b6c-8bab07152170" />
+
 <br>
 <br>
 <br>
@@ -71,6 +78,9 @@ END
 
 
 **Manual Calculations:**  
+
+![WhatsApp Image 2025-10-23 at 11 10 12_27f78f49](https://github.com/user-attachments/assets/7472f8c9-a087-40cc-8489-1fdd835d9a40)
+
 
 <br>
 <br>
