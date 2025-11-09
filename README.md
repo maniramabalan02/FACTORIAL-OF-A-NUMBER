@@ -32,44 +32,28 @@ APPARATUS REQUIRED: Personal computer with Keil software
 
 **Program:**
 
-ORG 0000H   
-
-MOV A,#04H  
-
-MOV R0,A  
-
-ACALL FACTORIAL  
-
-MOV 40H,A  
-
-SJMP THIN  
-
-FACTORIAL:DEC R0  
-
-CJNE R0,#01H,PRODUCT  
-
-SJMP THICK   
-
-PRODUCT:MOV B,R0  
-
-MUL AB  
-
-ACALL FACTORIAL  
-
-THICK: RET  
-
-THIN:  
-
+ORG 0000H
+MOV DPTR,#4500H
+MOVX A,@DPTR
+MOV R0,A
+INC DPTR
+ACALL FACTORIAL
+MOVX @DPTR,A
+SJMP THIN
+FACTORIAL:DEC R0
+CJNE R0,#01H,PRODUCT
+SJMP THICK
+PRODUCT:MOV B,R0
+MUL AB
+ACALL FACTORIAL
+THICK: RET
+THIN:RET
 END
+
 
 **Output:**  
 
-INPUT
-<img width="1919" height="257" alt="MAGESH KUMAR C 212224060143 FACTORIAL IP" src="https://github.com/user-attachments/assets/94be1607-45a4-4a82-ba2b-e145f62d7f18" />
-
-
-OUTPUT
-<img width="1917" height="265" alt="MAGESH KUMAR C 212224060143 FACTORIAL OP" src="https://github.com/user-attachments/assets/3404bcde-b6ff-4d7c-9b6c-8bab07152170" />
+<img width="1920" height="1200" alt="image" src="https://github.com/user-attachments/assets/1b34328d-453a-4a31-8981-78efb07dd8d1" />
 
 <br>
 <br>
@@ -79,7 +63,7 @@ OUTPUT
 
 **Manual Calculations:**  
 
-![WhatsApp Image 2025-10-23 at 11 10 12_27f78f49](https://github.com/user-attachments/assets/7472f8c9-a087-40cc-8489-1fdd835d9a40)
+<img width="953" height="1280" alt="image" src="https://github.com/user-attachments/assets/1dd97b20-eeab-405a-ba1d-29aa997b65de" />
 
 
 <br>
